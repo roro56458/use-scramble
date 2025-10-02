@@ -1,0 +1,20 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    // Output directory for compiled JS and declaration files
+    "outDir": "dist/vue",
+    // Root directory of the Vue source files
+    "rootDir": "src/vue",
+    // Generate declaration files
+    "declaration": true,
+    // Output directory for declaration files
+    "declarationDir": "dist/vue",
+    // Module system for the output
+    "module": "ESNext",
+    // Target modern JavaScript
+    "target": "ESNext",
+    // Emit JS files alongside declaration files
+    "noEmit": false
+  },
+  "include": ["src/vue"]
+}
